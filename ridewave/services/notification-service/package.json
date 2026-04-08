@@ -9,12 +9,16 @@
     "test": "jest --coverage"
   },
   "dependencies": {
+    "bcrypt": "6.0.0",
     "dotenv": "^16.4.5",
+    "expo": "55.0.12",
     "express": "^4.19.2",
-    "firebase-admin": "^12.2.0",
+    "firebase-admin": "^10.3.0",
     "kafkajs": "^2.2.4",
-    "nodemailer": "^6.9.14",
-    "twilio": "^5.2.2"
+    "nodemailer": "^8.0.5",
+    "react-native": "0.85.0",
+    "twilio": "^5.2.2",
+    "vite": "8.0.7"
   },
   "devDependencies": {
     "jest": "^29.7.0",
