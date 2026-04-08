@@ -1,0 +1,16 @@
+{
+  "name": "ridewave",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": [
+    "services/*",
+    "mobile/*",
+    "web/*",
+    "shared/*"
+  ],
+  "scripts": {
+    "dev": "docker compose -f infra/docker-compose.yml up --build",
+    "test": "npm run test --workspaces --if-present",
+    "build": "npm run build --workspaces --if-present"
+  }
+}
